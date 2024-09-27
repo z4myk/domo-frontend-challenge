@@ -1,0 +1,158 @@
+body{
+overflow-x: hidden ;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+}
+
+.navbarText{
+  color: #081b29 !important;
+}
+
+.containerLogo{
+  border-right: 1px solid #e3e3e3;
+
+}
+
+.logoB{
+  font-size: 2rem;
+  padding: 20px;
+  color: #002847;
+}
+
+
+
+.backgroundCol{
+  background-color: #022b41;
+  height: 100%;
+  padding: 30px;
+}
+
+.backgroundColOficina {
+  background-image: url("./assets/oficina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.white-box {
+  padding: 15px;
+  width: 70%; 
+  height: 60%; 
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.containerBook{
+  border: 2px solid #1a3942;
+  border-radius: 25px;
+  font-weight: 800;
+  padding: 10px;
+}
+.input-placeholder::placeholder {
+  color: #1a3942 !important;
+  font-weight: 800;
+}
+
+.textButtonSend{
+  color: #1a3942 ;
+}
+
+.buttonSend{
+  border: 2px solid #1a3942 !important;
+}
+
+.containerWelcome{
+  border: 2px solid #567186; 
+  border-radius: 20px;
+}
+
+.borderBusiness{
+  border-bottom: 5px solid #0696fb !important;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+
+
+.backgroundCol,
+.backgroundColOficina {
+  min-height: 100vh; 
+}
+
+
+.buttonContactUs{
+  border-radius: 25px;
+  font-weight:800 ;
+ 
+}
+
+.corchetesWheight{
+  font-weight: 300;
+}
+
+.active{
+  color: #364d60 !important;
+}
+
+@media (max-width: 915px) {
+   
+    .container {
+        padding: 2rem; 
+    }
+    
+    h1, h2, h4 {
+        font-size: 1.5rem; 
+    }
+    .white-box{
+      height: 60%; 
+    }
+
+    .d-flex {
+        flex-direction: column; 
+    }
+}
+.white-box {
+  max-width: 100%; 
+  margin: 0 auto;  
+  padding: 20px;   
+  box-sizing: border-box; 
+  overflow: hidden; 
+}
+
+.input-placeholder {
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .white-box {
+      padding: 5px;
+      box-sizing: border-box;
+      height: 75%; 
+      
+  }
+
+  .arrowMobile{
+    display: none;
+  }
+
+  h1, h2, h4 {
+      font-size: 1.5rem; 
+  }
+  
+
+  .white-box, .containerBook, .containerWelcome, .textButtonSend {
+      overflow-wrap: break-word; 
+      word-wrap: break-word;     
+  }
+}
+
+
+
