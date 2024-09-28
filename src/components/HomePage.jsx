@@ -2,9 +2,10 @@ import React from 'react';
 
 export const HomePage = () => {
     return (
-        <header className="row">
+        <header className="row" data-aos="fade-up"
+        data-aos-duration="3000">
          
-            <div className="col-12 col-md-6 backgroundCol">
+            <div className="col-12 col-md-6 backgroundCol " >
                 <section className="container mt-3 p-5">
                     <div className="pb-5">
                         <div className="mb-4 pt-5">
@@ -30,8 +31,8 @@ export const HomePage = () => {
                 </section>
             </div>
 
-            <div className="col-12 col-md-6 backgroundColOficina">
-                <div className="white-box shadow  container">
+            <div className="col-12 col-md-6 backgroundColOficina" >
+                <div className="white-box shadow  container" >
                     <section>
                         <div className="mb-4 pt-5">
                             <span className="containerBook ">Book your free consultation</span>
@@ -40,12 +41,12 @@ export const HomePage = () => {
                         <h2 className="">Get a free consultation</h2>
 
                         <form>
-                            <div className="d-flex flex-column flex-md-row justify-content-center gap-3 mt-4">
+                            <div className="d-flex justify-content-center  gap-3  mt-4">
                                 <div>
-                                    <input type="text" className="form-control p-3 rounded w-100 input-placeholder" placeholder="Name" />
+                                    <input type="text" className="form-control p-3 rounded  input-placeholder" placeholder="Name" required />
                                 </div>
                                 <div>
-                                    <input type="email" className="form-control p-3 rounded w-100 input-placeholder" placeholder="contact@email.com" />
+                                    <input type="email" className="form-control p-3 rounded  input-placeholder" placeholder="contact@email.com" required />
                                 </div>
                             </div>
                             <div>
