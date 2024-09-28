@@ -166,7 +166,7 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 .loaderBackground {
   position: absolute;
@@ -174,8 +174,8 @@ h1{
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* La imagen se ajustará para cubrir toda la pantalla */
-  z-index: -1; /* Coloca la imagen detrás del contenido */
+  object-fit: cover;
+  z-index: -1;
   filter: brightness(0.3);
 }
 
@@ -192,7 +192,7 @@ h1{
 .loader div {
   position: absolute;
   top: -200px;
-  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); 
+  
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -223,32 +223,32 @@ h1{
 @keyframes flip1 {
   0% {
     transform: scale(0);
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Menos brillo al inicio */
+    
   }
   100% {
     transform: scale(1);
-    box-shadow: 0 0 20px rgba(52, 152, 219, 1); /* Más brillo al final */
+   
   }
 }
 
 @keyframes flip3 {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 20px rgba(52, 152, 219, 1); /* Brillo alto al inicio */
+  
   }
   100% {
     transform: scale(0);
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Menos brillo al final */
+     
   }
 }
 
 @keyframes flip2 {
   0% {
     transform: translate(0, 0);
-    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7); /* Brillo moderado */
+    
   }
   100% {
     transform: translate(24px, 0);
-    box-shadow: 0 0 15px rgba(52, 152, 219, 1); /* Más brillo al moverse */
+   
   }
 }
